@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+
+    <script>
+        // para practicar CLASES Y OBJETOS. 
+       
+        class Persona {
+            constructor (name = "sin nombre", lastname = "sin apellido", localidad) {
+                this._nombre = name;
+                this._apellido = lastname;
+                this._localidad = localidad;
+            } 
+            get getNombre () {
+                return this._nombre;
+            }
+
+            get getDamePropiedades () {
+                
+            }
+            set setNombre (name) {
+                this._nombre = name;
+            }
+
+        }
+            let cliente02 = new Persona ("mark", "markinson", "villa gesell");
+            cliente02.tel = "12234344";
+
+            cliente02.setNombre = "roberto";
+            console.log(cliente02.getNombre);
+
+        
+
+
+
+
+    </script>
+
+    <h1>THIS IS JAVA SCRIPT CODE</h1>
+    
+    
+</body>
+</html> 

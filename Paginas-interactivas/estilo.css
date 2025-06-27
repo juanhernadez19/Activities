@@ -1,0 +1,11 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+body{
+    border-radius: 10px black;
+}
